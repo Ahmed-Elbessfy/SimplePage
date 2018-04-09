@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Slab', 'San-Serif';
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+section,
+footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/*Nav Style*/
+
+nav.navbar.navbar-inverse {
+    background-color: #343a40 !important;
+    margin: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #d1d4ff;
+    font-family: 'sacramento';
+    font-size: 4rem;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: beige;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a.disabled,
+.navbar-inverse .navbar-nav > li > a.disabled:hover {
+    color: rgba(255, 255, 255, 0.25);
+}
+form.navbar-form input {
+    height: auto;
+    font-size: 16px;
+    padding: 10px 15px;
+    letter-spacing: 0.5px;
+}
+form.navbar-form button {
+    background-color: #343a40;
+    color: #d1d4ff;
+    border-color: #d1d4ff;
+    font-size: 16px;
+    padding: 10px 15px;
+    letter-spacing: 0.5px;
+}
+form.navbar-form button:hover {
+    color: #101010;
+    border-color: #101010;
+    background-color: #d1d4ff;
+}
+/* Carousel */
+.carousel-inner {
+    overflow: hidden;
+}
+.carousel-control {
+    opacity: 1;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+}
+.carousel-caption {
+    width: 50%;
+    margin: 0 auto;
+}
+.carousel-caption h1 {
+    text-shadow: 2px 2px #000;
+    color: beige;
+    font-family: 'Fredericka the Great', 'San-Serif';
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption p {
+    color: beige;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.carousel-caption .btn {
+    background-color: beige;
+    color: #000000;
+    font-size: 2.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 2px solid #4f4fff;
+    margin-top: 1rem;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 4px;
+    background-color: #a5a5a5;
+    border: none;
+    margin-bottom: 0;
+}
+
+.carousel-indicators li.active {
+    background-color: #fff;
+    height: 5px;
+    width: 27px;
+}
+
+main {
+    background-color: #d1d4ff;
+}
+
+/* features */
+
+.features .feat {
+    background-color: beige;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #4f4fff;
+}
+
+.feat img {
+    border-radius: 30%;
+    border: 2px solid #ffb100;
+    padding: 2px;
+}
+
+.feat .btn {
+    padding: 10px 20px;
+    font-size: 3rem;
+    font-weight: 700;
+    border: 2px solid #4f4fff;
+}
+
+/* sample */
+
+.sample {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5rem;
+    padding: 3rem;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: beige;
+    border-right: 2px solid #4f4fff;
+    border-left: 2px solid #4f4fff;
+}
+.sample span{
+    color: #777777;
+}
+/* footer */
+footer {
+    text-transform: capitalize;
+}
+.left {
+    float: left;
+}
+.left p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.right {
+    float: right;
+}
+
+footer a {
+    font-size: 1.7rem;
+    padding-left: 5px
+}
+
+@media (min-width:1400px) {
+    .carousel-caption {
+        margin-bottom: 18rem;
+        font-size: 2rem;
+    }
+}

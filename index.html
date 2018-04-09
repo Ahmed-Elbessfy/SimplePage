@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- To Accept all Lnguages for the website-->
+    <meta charset="utf-8">
+
+    <!-- Start view and scale-->
+    <meta name="viewport" content="width=device-width, initial-sclae=1">
+    <!-- one of the bad steps is to add max-scale=1 to this meta tag so don't do this -->
+    <!-- Author -->
+    <meta name="Ahmed Elbessfy" content="Ahmed Elbessfy">
+    <meta name="description" content="Content of the website">
+    <title>Sample</title>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- main style -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Josefin+Slab|Sacramento" rel="stylesheet">
+    <style></style>
+    <script></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                    <a class="navbar-brand" href="#">Carousel</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#" class="disabled">Disabled</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="Search" class="btn btn-default">Search</button>
+                    </form>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div id="headerCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#headerCarousel" data-slide-to="0" class="active">
+                </li>
+                <li data-target="#headerCarousel" data-slide-to="1">
+
+                </li>
+                <li data-target="#headerCarousel" data-slide-to="2">
+
+                </li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="media/1.png" alt="...">
+                    <div class="container">
+                        <!-- Add a container to use it's max-widht property -->
+                        <div class="carousel-caption">
+                            <h1>Example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <a class="btn btn-lg " href="https://getbootstrap.com/docs/4.0/examples/carousel/#" role="button">Sign up today</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/2.jpg" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <a class="btn btn-lg " href="https://getbootstrap.com/docs/4.0/examples/carousel/#" role="button">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/3.jpg" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <a class="btn btn-lg " href="https://getbootstrap.com/docs/4.0/examples/carousel/#" role="button">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#headerCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+            <a class="right carousel-control" href="#headerCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span></a>
+        </div>
+    </header>
+    <main>
+        <section class="features">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4  ">
+                        <div class="feat">
+                            <img src="media/features/access.png" alt="" class="img-circle">
+                            <h2>Heading</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum, modi facilis, atque laboriosam consequatur aspernatur accusantium, sit necessitatibus libero asperiores iste nisi ab blanditiis nobis quam voluptates molestiae hic qui cupiditate aut! Aliquam tenetur itaque quae delectus, sint nesciunt.</p>
+                            <a href="#" class="btn btn-default">View Details </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4  ">
+                        <div class="feat">
+                            <img src="media/features/api.png" alt="" class="img-circle">
+                            <h2>Heading</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum, modi facilis, atque laboriosam consequatur aspernatur accusantium, sit necessitatibus libero asperiores iste nisi ab blanditiis nobis quam voluptates molestiae hic qui cupiditate aut! Aliquam tenetur itaque quae delectus, sint nesciunt.</p>
+                            <a href="#" class="btn btn-default">View Details </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4  ">
+                        <div class="feat">
+                            <img src="media/features/data.png" alt="" class="img-circle">
+                            <h2>Heading</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum, modi facilis, atque laboriosam consequatur aspernatur accusantium, sit necessitatibus libero asperiores iste nisi ab blanditiis nobis quam voluptates molestiae hic qui cupiditate aut! Aliquam tenetur itaque quae delectus, sint nesciunt.</p>
+                            <a href="#" class="btn btn-default">View Details </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="samples">
+            <div class="container">
+                <div class="sample">
+                    <div class="content">
+                        <h2>Sample name <br> this is <span>awesome sample</span> of our work</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nemo dolores voluptates reprehenderit quisquam quod fugiat, ab iste eos. Repudiandae expedita iure tempore repellat.</p>
+                    </div>
+                    <img src="media/samples/4.jpg" alt="" class="img-circle img-responsive">
+                </div>
+                <div class="sample">
+                    <img src="media/samples/5.jpg" alt="" class="img-circle img-responsive">
+                    <div class="content">
+                        <h2>Sample name <br> this is <span>awesome sample</span> of our work</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nemo dolores voluptates reprehenderit quisquam quod fugiat, ab iste eos. Repudiandae expedita iure tempore repellat.</p>
+                    </div>
+                </div>
+                <div class="sample">
+                    <div class="content">
+                        <h2>Sample name <br> this is <span>awesome sample</span> of our work</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nemo dolores voluptates reprehenderit quisquam quod fugiat, ab iste eos. Repudiandae expedita iure tempore repellat.</p>
+                    </div>
+                    <img src="media/samples/flat,1000x1000,075,f.u2.jpg" alt="" class="img-circle img-responsive">
+                </div>
+                <div class="sample">
+                    <img src="media/samples/1.jpg" alt="" class="img-circle img-responsive">
+                    <div class="content">
+                        <h2>Sample name <br> this is <span>awesome sample</span> of our work</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nemo dolores voluptates reprehenderit quisquam quod fugiat, ab iste eos. Repudiandae expedita iure tempore repellat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="left">
+                    <p class="lead">&copy; 2017-2018 company, inc.</p> <a href="#">privacy</a> <a href="#">terms</a> <a href="https://getbootstrap.com/docs/4.0/examples/carousel/#">original design</a>
+                </div>
+                <div class="right">
+                    <a href="#">back to top</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- my js code-->
+    <script src="js/js.js"></script>
+</body>
+
+</html>
